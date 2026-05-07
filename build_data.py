@@ -1,13 +1,15 @@
 import json
 import re
+import sys
 from pathlib import Path
 from pypdf import PdfReader
 
-ROOT = Path('/Users/maxizosimov/Desktop/тренажер по англу')
-PDFS = {
-    'translation': Path('/Users/maxizosimov/Downloads/Термины_перевод (1).pdf'),
-    'definitions': Path('/Users/maxizosimov/Downloads/Термины_определения (1).pdf'),
-    'abbreviations': Path('/Users/maxizosimov/Downloads/Термины_ аббревиатуры (1).pdf'),
+ROOT = Path(__file__).resolve().parent
+SEARCH_DIRS = [ROOT / "source_pdfs", ROOT, Path.home() / "Downloads"]
+PDF_PATTERNS = {
+    "translation": ["*перевод*.pdf"],
+    "definitions": ["*определения*.pdf"],
+    "abbreviations": ["*аббревиатур*.pdf", "*аббревиатуры*.pdf"],
 }
 
 
@@ -122,10 +124,50 @@ def parse_definitions(text: str):
     return sorted(dedup.values(), key=lambda x: x["term"].lower())
 
 
+def find_pdf(section: str) -> Path | None:
+    matches = []
+    for directory in SEARCH_DIRS:
+        if not directory.exists():
+            continue
+        for pattern in PDF_PATTERNS[section]:
+            matches.extend(directory.glob(pattern))
+    if not matches:
+        return None
+    return sorted(matches, key=lambda p: p.stat().st_mtime, reverse=True)[0]
+
+
+def resolve_pdfs():
+    files = {section: find_pdf(section) for section in PDF_PATTERNS}
+    missing = [name for name, path in files.items() if path is None]
+    if missing:
+        missing_titles = {
+            "translation": "термины на перевод",
+            "definitions": "термины и определения",
+            "abbreviations": "аббревиатуры",
+        }
+        print("Не нашел PDF для разделов:")
+        for key in missing:
+            print(f"- {missing_titles[key]}")
+        print("\nЧто сделать:")
+        print("1) Создать папку source_pdfs рядом с этим скриптом")
+        print("2) Положить туда 3 PDF с названиями, содержащими слова:")
+        print("   перевод, определения, аббревиатуры")
+        return None
+    return files
+
+
 def main():
-    translation_text = extract_text(PDFS['translation'])
-    definitions_text = extract_text(PDFS['definitions'])
-    abbreviations_text = extract_text(PDFS['abbreviations'])
+    pdfs = resolve_pdfs()
+    if pdfs is None:
+        sys.exit(1)
+
+    print("Использую PDF:")
+    for key, path in pdfs.items():
+        print(f"- {key}: {path}")
+
+    translation_text = extract_text(pdfs["translation"])
+    definitions_text = extract_text(pdfs["definitions"])
+    abbreviations_text = extract_text(pdfs["abbreviations"])
 
     data = {
         "translation": parse_translation(translation_text),
@@ -134,12 +176,13 @@ def main():
     }
 
     out = "window.TRAINER_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
-    (ROOT / 'data.js').write_text(out, encoding='utf-8')
+    (ROOT / "data.js").write_text(out, encoding="utf-8")
 
-    print('translation:', len(data['translation']))
-    print('abbreviations:', len(data['abbreviations']))
-    print('definitions:', len(data['definitions']))
+    print("Готово. Обновлен data.js")
+    print("translation:", len(data["translation"]))
+    print("abbreviations:", len(data["abbreviations"]))
+    print("definitions:", len(data["definitions"]))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
