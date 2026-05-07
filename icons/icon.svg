@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="KM2 Trainer">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#c27b2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#g)"/>
+  <rect x="76" y="88" width="360" height="336" rx="36" fill="#ffffff" opacity="0.96"/>
+  <path d="M140 174h232" stroke="#0f766e" stroke-width="20" stroke-linecap="round"/>
+  <path d="M140 238h232" stroke="#0f766e" stroke-width="20" stroke-linecap="round" opacity="0.8"/>
+  <path d="M140 302h148" stroke="#0f766e" stroke-width="20" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="352" cy="300" r="52" fill="#f59e0b"/>
+  <path d="M332 300l13 13 27-27" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
