@@ -142,8 +142,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 29,
-      "en": "built",
-      "ru": "in webcam – встроенная камера"
+      "en": "built-in webcam",
+      "ru": "встроенная камера"
     },
     {
       "id": 30,
@@ -207,8 +207,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 42,
-      "en": "client",
-      "ru": "server architecture – архитектура клиент-сервер"
+      "en": "client-server architecture",
+      "ru": "архитектура клиент-сервер"
     },
     {
       "id": 43,
@@ -257,8 +257,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 52,
-      "en": "crawler",
-      "ru": "based search engine – автоматизированная поисковая система"
+      "en": "crawler-based search engine",
+      "ru": "автоматизированная поисковая система"
     },
     {
       "id": 53,
@@ -322,8 +322,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 65,
-      "en": "dial",
-      "ru": "up connection – коммутируемое соединение"
+      "en": "dial-up connection",
+      "ru": "коммутируемое соединение"
     },
     {
       "id": 66,
@@ -407,8 +407,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 82,
-      "en": "fiber",
-      "ru": "optic cables- оптоволоконный кабель"
+      "en": "fiber-optic cables",
+      "ru": "оптоволоконный кабель"
     },
     {
       "id": 83,
@@ -512,8 +512,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 103,
-      "en": "help",
-      "ru": "desk troubleshooter (technician) – сотрудник службы технической поддержки"
+      "en": "help-desk troubleshooter (technician)",
+      "ru": "сотрудник службы технической поддержки"
     },
     {
       "id": 104,
@@ -532,13 +532,13 @@ window.TRAINER_DATA = {
     },
     {
       "id": 107,
-      "en": "high",
-      "ru": "speed Internet connection – высокоскоростное интернет-соединение"
+      "en": "high-speed Internet connection",
+      "ru": "высокоскоростное интернет-соединение"
     },
     {
       "id": 108,
-      "en": "host",
-      "ru": "based firewall – межсетевой экран узлов (software)"
+      "en": "host-based firewall",
+      "ru": "межсетевой экран узлов (software)"
     },
     {
       "id": 109,
@@ -562,8 +562,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 113,
-      "en": "human",
-      "ru": "powered directory – веб-каталог"
+      "en": "human-powered directory",
+      "ru": "веб-каталог"
     },
     {
       "id": 114,
@@ -687,8 +687,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 138,
-      "en": "low",
-      "ru": "level language – низкоуровневый язык"
+      "en": "low-level language",
+      "ru": "низкоуровневый язык"
     },
     {
       "id": 139,
@@ -752,8 +752,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 151,
-      "en": "Meta",
-      "ru": "Search engine – метапоисковая система"
+      "en": "Meta-Search engine",
+      "ru": "метапоисковая система"
     },
     {
       "id": 152,
@@ -762,8 +762,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 153,
-      "en": "multi",
-      "ru": "core CPU – многоядерный процессор"
+      "en": "multi-core CPU",
+      "ru": "многоядерный процессор"
     },
     {
       "id": 154,
@@ -772,8 +772,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 155,
-      "en": "multi",
-      "ru": "tasking – многозадачный"
+      "en": "multi-tasking",
+      "ru": "многозадачный"
     },
     {
       "id": 156,
@@ -792,8 +792,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 159,
-      "en": "network",
-      "ru": "based firewall – сетевой брандмауэр (combination of software and hardware)"
+      "en": "network-based firewall",
+      "ru": "сетевой брандмауэр (combination of software and hardware)"
     },
     {
       "id": 160,
@@ -807,13 +807,13 @@ window.TRAINER_DATA = {
     },
     {
       "id": 162,
-      "en": "non",
-      "ru": "volatile – энергонезависимый"
+      "en": "non-volatile",
+      "ru": "энергонезависимый"
     },
     {
       "id": 163,
-      "en": "Off",
-      "ru": "Page SEO – внешняя поисковая оптимизация"
+      "en": "Off-Page SEO",
+      "ru": "внешняя поисковая оптимизация"
     },
     {
       "id": 164,
@@ -822,13 +822,13 @@ window.TRAINER_DATA = {
     },
     {
       "id": 165,
-      "en": "On",
-      "ru": "Page SEO – поисковая оптимизация страницы"
+      "en": "On-Page SEO",
+      "ru": "поисковая оптимизация страницы"
     },
     {
       "id": 166,
-      "en": "open",
-      "ru": "source software – программы с открытым исходным кодом"
+      "en": "open-source software",
+      "ru": "программы с открытым исходным кодом"
     },
     {
       "id": 167,
@@ -882,8 +882,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 177,
-      "en": "peer",
-      "ru": "to-peer architecture – одноранговая сеть"
+      "en": "peer-to-peer architecture",
+      "ru": "одноранговая сеть"
     },
     {
       "id": 178,
@@ -932,8 +932,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 187,
-      "en": "power",
-      "ru": "supply unit – блок питания"
+      "en": "power-supply unit",
+      "ru": "блок питания"
     },
     {
       "id": 188,
@@ -987,13 +987,13 @@ window.TRAINER_DATA = {
     },
     {
       "id": 198,
-      "en": "read",
-      "ru": "write head – головка чтения/записи"
+      "en": "read-write head",
+      "ru": "головка чтения/записи"
     },
     {
       "id": 199,
-      "en": "real",
-      "ru": "time OS – операционная система, управляющая обработкой данных в реальном времени; операционная система реального времени"
+      "en": "real-time OS",
+      "ru": "операционная система, управляющая обработкой данных в реальном времени; операционная система реального времени"
     },
     {
       "id": 200,
@@ -1076,8 +1076,8 @@ window.TRAINER_DATA = {
       "ru": "конфиденциальные данные"
     },
     {
-      "id": 216,
-      "en": "SEO (Search Engine Optimization) 217. session layer",
+      "id": 217,
+      "en": "session layer",
       "ru": "сеансовый уровень"
     },
     {
@@ -1092,8 +1092,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 220,
-      "en": "signature",
-      "ru": "based scanning – сигнатурное сканирование"
+      "en": "signature-based scanning",
+      "ru": "сигнатурное сканирование"
     },
     {
       "id": 221,
@@ -1297,8 +1297,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 261,
-      "en": "twisted",
-      "ru": "pair cable – витая пара"
+      "en": "twisted-pair cable",
+      "ru": "витая пара"
     },
     {
       "id": 262,
@@ -1322,8 +1322,8 @@ window.TRAINER_DATA = {
     },
     {
       "id": 266,
-      "en": "USB",
-      "ru": "flash drive / memory stick – флеш-накопитель"
+      "en": "USB-flash drive / memory stick",
+      "ru": "флеш-накопитель"
     },
     {
       "id": 267,
@@ -1387,13 +1387,13 @@ window.TRAINER_DATA = {
     },
     {
       "id": 279,
-      "en": "write",
-      "ru": "back сache – кэш с обратной (отложенной) записью"
+      "en": "write-back сache",
+      "ru": "кэш с обратной (отложенной) записью"
     },
     {
       "id": 280,
-      "en": "write",
-      "ru": "through сache – кэш со сквозной записью"
+      "en": "write-through сache",
+      "ru": "кэш со сквозной записью"
     }
   ],
   "abbreviations": [

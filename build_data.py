@@ -2,6 +2,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from typing import Optional
 from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parent
@@ -28,12 +29,20 @@ def clean_text(value: str) -> str:
 def parse_translation(text: str):
     body_match = re.search(r"\n\s*1\.\s", text)
     body = text[body_match.start():] if body_match else text
-    pattern = re.compile(r"(?ms)^\s*(\d+)\.\s*(.+?)\s*[–—-]\s*(.+?)(?=^\s*\d+\.\s*|\Z)")
+    pattern = re.compile(r"(?ms)^\s*(\d+)\.\s*(.+?)(?=^\s*\d+\.\s*|\Z)")
     items = []
     for m in pattern.finditer(body):
         idx = int(m.group(1))
-        en = clean_text(m.group(2))
-        ru = clean_text(m.group(3))
+        chunk = clean_text(m.group(2))
+        sep = (
+            re.search(r"\s+[–—]\s+", chunk)
+            or re.search(r"\s+-\s+", chunk)
+            or re.search(r"(?<=[A-Za-z0-9\)])\s*[–—-]\s*(?=[А-Яа-яЁё])", chunk)
+        )
+        if not sep:
+            continue
+        en = clean_text(chunk[: sep.start()])
+        ru = clean_text(chunk[sep.end() :])
         if not en or not ru:
             continue
         items.append({"id": idx, "en": en, "ru": ru})
@@ -124,7 +133,7 @@ def parse_definitions(text: str):
     return sorted(dedup.values(), key=lambda x: x["term"].lower())
 
 
-def find_pdf(section: str) -> Path | None:
+def find_pdf(section: str) -> Optional[Path]:
     matches = []
     for directory in SEARCH_DIRS:
         if not directory.exists():

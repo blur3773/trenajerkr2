@@ -110,11 +110,9 @@ function isTextCorrect(user, expected) {
   const variants = expectedVariants(expected);
 
   if (variants.some((v) => userN === v)) return true;
-  if (variants.some((v) => v.includes(userN) && userN.length >= 5)) return true;
-  if (variants.some((v) => userN.includes(v) && v.length >= 5)) return true;
 
   const best = variants.reduce((max, variant) => Math.max(max, diceSimilarity(userN, variant)), 0);
-  return best >= 0.86;
+  return best >= 0.92;
 }
 
 function renderStats() {
