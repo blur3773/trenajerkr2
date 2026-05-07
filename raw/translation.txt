@@ -1,0 +1,295 @@
+Learn the terminology. Be ready to translate the terms from Russian into English and from 
+English into Russian.  
+ 
+1. access point – точка доступа 
+2. access time (seek time) – время доступа 
+3. addition – сложение 
+4. adware – рекламное ПО 
+5. AI (artificial intelligence) – искусственный интеллект 
+6. analog and digital signals – аналоговый, цифровой сигналы 
+7. application code – код приложения 
+8. application/ app – приложение 
+9. AR (augmented reality) – дополненная реальность 
+10. ALU (Arithmetic Logic Unit) – арифметико-логическое устройство 
+11. artificial neural network- искусственная нейронная сеть, ИНС 
+12. аssembler – ассемблер 
+13. assembly languages – языки ассемблера, низкоуровневые языки, близкие к ассемблеру 
+14. asynchronous transmission – асинхронная передача данных 
+15. attenuation of a signal – затухание (ослабление) сигнала 
+16. backbone – магистраль 
+17. backdoor – лазейка в системе безопасности 
+18. backend development – разработка серверных компонентов приложения 
+19. background templates – фоновые шаблоны 
+20. backpropagation – алгоритм обратного распространения ошибки  
+21. backup – резервное копирование 
+22. bandwidth – пропускная способность (ширина полосы пропускания)  
+23. BIOS (Basic Input/Output System) – базовая система ввода/вывода 
+24. battery pack – аккумуляторная батарея 
+25. binary code – двоичный код 
+26. biometric security devices – биометрические средства защиты 
+27. bridge – мост 
+28. broadband connection – широкополосный интернет 
+29. built-in webcam – встроенная камера 
+30. bus – шина 
+31. bus width – разрядность шины  
+32. bus topology – топология общая шина 
+33. cache coherency – когерентность кэша 
+34. cache hit – попадание в кэш 
+35. cache miss – промах кэша  
+36. cache line size – размер кэш-строки  
+37. calculations – вычисления 
+38. capacitor – конденсатор (электронный компонент, накапливающий заряд)  
+39. cellular connection – сотовая связь 
+40. CPU (Central Processing Unit) – центральный процессор 
+41. circuit board – печатная плата 
+42. client-server architecture – архитектура клиент-сервер 
+43. clock speed – тактовая частота  
+44. cloud computing – облачные вычисления 
+45. coaxial cable – коаксиальный кабель 
+46. compatible – совместимый 
+47. compiler – компилятор 
+48. consistent data – согласованные данные 
+49. control unit – блок управления 
+50. cooperative multitasking – кооперативная многозадачность; совместная многозадачность, 
+невытесняющая многозадачность 
+51. copper cable – медный провод 
+52. crawler-based search engine – автоматизированная поисковая система 
+53. crawling – поиск (сканирование информации) 
+54. CSS (Cascading Style Sheets) – каскадные таблицы стилей  
+55. data link layer – канальный уровень 
+56. data transmission – передача данных 
+57. datagram packet switching – коммутация дейтаграммных пакетов  
+58. DDoS attack (Distributed Denial of Service) – распределённая атака на отказ в 
+обслуживании 
+59. debugging – отладка 
+60. dedicated line – выделенная линия 
+61. default settings – настройки по умолчанию (стандартные) 
+62. delay/ latency – задержка (передачи сигнала) 
+63. desktop PC – стационарный компьютер 
+64. detachable keyboard – съемная клавиатура 
+65. dial-up connection – коммутируемое соединение 
+66. differential backup – частичное копирование, разностное резервное копирование 
+(выполняет копирование файлов, созданных или измененных с момента обычного (или 
+добавочного) архивирования. 
+67. digital signal – цифровой сигнал 
+68. DSL (Digital Subscriber Line) – цифровая абонентская линия 
+69. directory – каталог, папка 
+70. distortion of a signal – искажение сигнала (расхождение) 
+71. division – деление 
+72. download speed – скорость скачивания (загрузки) 
+73. encapsulation – инкапсуляция (for OOP) 
+74. encryption – шифрование 
+75. energy consumption – энергопотребление 
+76. erasable – перезаписываемый, допускающий возможность стирания 
+77. executable file – исполняемый файл 
+78. expansion card – карта расширения 
+79. expansion slots – слоты расширения 
+80. external hard disk drive (HDD) - внешний жёсткий диск 
+81. feature – характеристика, особенность 
+82. fiber-optic cables- оптоволоконный кабель 
+83. firewall – брэндмауэр, межсетевой экран 
+84. firmware – прошивка 
+85. flash drive – флэшка 
+86. floating gate transistor – транзистор с плавающим затвором 
+87. floppy disk – дискета 
+88. font – шрифт 
+89. footer – нижний колонтитул 
+90. formatting – форматирование 
+91. freeware – бесплатное ПО 
+92. front side bus – системная (фронтальная) шина 
+93. FTP (File Transfer Protocol) – протокол передачи данных 
+94. fully connected neural networks – полносвязные нейросети  
+95. gateway – шлюз, межсетевой шлюз сетевое устройство или компьютер 
+96. geostationary satellite – геостационарный спутник 
+97. GUI (Graphical User Interface) – графический интерфейс пользователя 
+98. handheld, palmtop, portable devices – портативные устройства 
+99. hardware – аппаратное техническое обеспечение 
+100. header – верхний колонтитул  
+101. head crash – авария головки (поломка магнитной головки у HDD) 
+102. headphones – наушники 
+103. help-desk troubleshooter  (technician) – сотрудник службы технической поддержки 
+104. heuristic scanning – эвристическое сканирование  
+105. hidden units – скрытые элементы 
+106. high level language – высокоуровневый язык 
+107. high-speed Internet connection – высокоскоростное интернет-соединение 
+108. host-based firewall – межсетевой экран узлов (software) 
+109. hot spot – общая точка доступа 
+110. HTML (Hypertext Markup Language) – язык разметки гипертекста 
+111. HTTP (Hyper Text Transfer Protocol) – протокол гипертекстовой передачи 
+112. hub – концентратор или повторитель 
+113. human-powered directory – веб-каталог 
+114. hyperlinks – гиперссылки 
+115. incremental backup- выборочное копирование 
+116. indexing – индексирование 
+117. indent – отступ  
+118. input/ output device – устройство ввода/вывода информации 
+119. IR (Instruction Register) – регистр инструкций 
+120. integrated circuits – микросхема, интегральная схема 
+121. interconnected nodes – взаимосвязанные узлы 
+122. internal/external storage device – внутреннее/внешнее устройство хранения 
+123. Internet access – доступ к интернету 
+124. interpreter – интерпретатор 
+125. inheritance – наследование  
+126. IoT (the Internet of Things) – интернет вещей 
+127. jump command – команда перехода  
+128. kernel – ядро  
+129. key features – основные характеристики, отличительные признаки 
+130. keylogger – клавиатурный шпион 
+131. laptop – ноутбук 
+132. laser beam – лазерный луч  
+133. layout – расположение, макет (сайта) 
+134. line spacing – межстрочный интервал 
+135. LAN (Local Area Network) – локальная сеть  
+136. LCD (liquid crystal display) – жидкокристаллический дисплей 
+137. lowercase – нижный регистр 
+138. low-level language – низкоуровневый язык 
+139. machine learning – машинное обучение 
+140. magnetic tape – магнитная лента 
+141. mainframe – мейнфрейм, мощный сервер 
+142. make a backup – сделать резервную копию 
+143. malware – вредоносное ПО 
+144. MAN (Metropolitan Area Network) – городская сеть  
+145. margins – поля 
+146. markup tags – теги разметки 
+147. memory allocation – выделение памяти, распределение памяти 
+148. memory capacity – объём памяти 
+149. memory card – карта памяти 
+150. mesh topology – топология сетки, ячеистая топология, многосвязная сеть 
+151. Meta-Search engine – метапоисковая система 
+152. misdirection routine – процедура дезориентации   
+153. multi-core CPU – многоядерный процессор 
+154. multiplication – умножение 
+155. multi-tasking – многозадачный  
+156. nested folders – вложенные папки 
+157. network security – безопасность в сети 
+158. network topology (ring, star, bus, tree) – топология сети 
+159. network-based firewall –  сетевой брандмауэр (combination of software and hardware) 
+160. neural network – нейронная сеть 
+161. node – узел, устройство подключенное к компьютерной сети 
+162. non-volatile – энергонезависимый 
+163. Off-Page SEO – внешняя поисковая оптимизация  
+164. office suite (package) – пакет офисных приложений 
+165. On-Page SEO – поисковая оптимизация страницы 
+166. open-source software – программы с открытым исходным кодом 
+167. organic results – естественные результаты (работы поисковой машины, 
+противопоставляются "спонсированным" (оплаченным рекламодателем) результатам 
+168. OSI model (Open Systems Interconnection) – модель взаимодействия открытых систем  
+169. output unit – блок вывода  
+170. overwriting virus – вирус перезаписи 
+171. packet switching – пакетная коммутация (передача данных) 
+172. page source code – исходный код страницы 
+173. particle – частица 
+174. partition – раздел на жёстком диске 
+175. payload – полезная нагрузка  
+176. PC (Program Counter) – счётчик команд, программный счетчик 
+177. peer-to-peer architecture – одноранговая сеть 
+178. performance – производительность 
+179. peripherals – подключаемое оборудование 
+180. PAN (Personal Area Network) – персональная сеть 
+181. pervasive computing – повсеместные вычисления 
+182. phishing – фишинг, интернет-мошенничество с целью хищения личных данных, 
+выуживание паролей 
+183. piggybacking – несанкционированное проникновение вслед за зарегистрированным 
+пользователем (напр., проникновение в сеть ) 
+184. pit – ячейка памяти у оптических дисков 
+185. plaintext – открытый текст, незашифрованный текст  
+186. platter – пластина жёсткого диска 
+187. power-supply unit – блок питания 
+188. preemptive multitasking- вытесняющая многозадачность, прерывающая программа 
+(программа, вытесняющая из памяти другую программу в соответствии с приоритетом) 
+189. primary storage – основное запоминающее устройство 
+190. proprietary software – закрытое программное обеспечение (защищённое) (в отличие от 
+программного обеспечения, являющегося открытым (open-source software) ) 
+191. protocol – протокол в общем случае, набор правил 
+192. punched card – перфокарта 
+193. RAM (Random Access Memory) – оперативное запоминающее устройство (ОЗУ) 
+194. ranking – ранжирование (у автоматизированного поисковика) 
+195. ransomware – программы-вымогатели 
+196. raw data – необработанные данные 
+197. ROM (Read Only Memory) – постоянное запоминающее устройство (ПЗУ) 
+198. read-write head – головка чтения/записи 
+199. real-time OS – операционная система, управляющая обработкой данных в реальном 
+времени; операционная система реального времени 
+200. registers (IR, PC) – регистры процессора  
+201. remote access – удалённый доступ 
+202. reproduction routine – процедура самокопирования/ воспроизводства 
+203. request/ query/ search string – запрос 
+204. ring topology – кольцевая топология  
+205. robotics – робототехника 
+206. router – маршрутизатор 
+207. satellite connection – спутниковая связь 
+208. satellite Internet access – доступ к спутниковому интернету 
+209. search engine – поисковая система 
+210. search index – база данных у поисковика 
+211. search box/ search bar – строка поиска 
+212. security measures – меры безопасности 
+213. semiconductor – полупроводник 
+214. semiconductor technology – полупроводниковая технология 
+215. sensitive data – конфиденциальные данные 
+216. SEO (Search Engine Optimization) 
+217. session layer – сеансовый уровень 
+218. shading – заливка 
+219. shareware – условно бесплатное ПО (ПО, предоставляемое на испытательный срок) 
+220. signature-based scanning – сигнатурное сканирование  
+221. silicon – кремний 
+222. SMT (Simultaneous MultiThreading) – одновременная многопоточность  
+223. smart home appliances – умные приборы 
+224. software – программное обеспечение 
+225. solid state technology – твердотельная технология 
+226. source code – исходный ход 
+227. speakers – колонки 
+228. spreadsheets – электронные таблицы 
+229. spyware – шпионские программы  
+230. SSD (Solid State Drive) – твердотельный накопитель 
+231. SSL (Secure Sockets Layer) – протокол защищённых соединений 
+232. star topology – топология “звезда” 
+233. storage device – устройство хранения данных 
+234. storage medium – носитель информации 
+235. streaming video – потоковое видео 
+236. subscribers – абоненты 
+237. supercomputer – cуперкомпьютер 
+238. supervisor program – организующая программа 
+239. switch – переключатель, коммутатор 
+240. system clock – тактовый генератор 
+241. system unit – системный блок 
+242. tablet – планшет 
+243. timesharing operating systems – операционная система с режимом разделения времени  
+244. to archive – архивировать 
+245. to click a suspicious link – переходить по подозрительной ссылке 
+246. to deny access – отказать в доступе, отклонить доступ 
+247. to edit – редактировать 
+248. to encrypt data – шифровать данные 
+249. to erase/ delete/ remove – стирать (данные) 
+250. to prevent an unauthorized access – предотвратить несанкционированный/ 
+неавторизованный доступ 
+251. to run an infected program – запускать заражённую программу 
+252. to spread/ propagate viruses – распространять вирусы 
+253. to update antivirus software – обновлять антивирусное ПО 
+254. touch screen – сенсорный экран 
+255. touchpad – сенсорная панель 
+256. track – дорожка на CD/жёстком диске 
+257. transceiver – приемопередатчик  
+258. transfer rate – скорость передачи данных 
+259. trigger – запуск, активация вируса  
+260. Trojan – Троянский конь 
+261. twisted-pair cable – витая пара 
+262. UDP (User Datagram Protocol) – протокол пользовательских дэйтаграмм 
+263. unauthorized access – неавторизованный доступ, несанкционированный доступ 
+264. URL (Uniform Resource Locator) – универсальный указатель ресурса  
+265. USB (Universal Serial Bus) port – USB порт  
+266. USB-flash drive / memory stick – флеш-накопитель 
+267. vacuum tubes – электронные лампы 
+268. virtual keyboard – виртуальная клавиатура 
+269. virtual circuit switching – коммутация виртуальных каналов  
+270. volatile – энергозависимый 
+271. voltage – напряжение 
+272. VR (Virtual Reality) – виртуальная реальность 
+273. website builder – конструктор веб-сайтов  
+274. Website defacement – искажение информации на вебсайте  
+275. weight – вес (веса) 
+276. WLAN (Wireless Local Area Network) – беспроводная локальная сеть 
+277. word processor – текстовый редактор 
+278. worm – червь 
+279. write-back сache – кэш с обратной (отложенной) записью 
+280. write-through сache – кэш со сквозной записью 
+ 

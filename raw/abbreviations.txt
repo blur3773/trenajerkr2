@@ -1,0 +1,102 @@
+1. 2FA — Two-Factor Authentication 
+2. ADSL — Asymmetric Digital Subscriber Line 
+3. AI — Artificial Intelligence 
+4. ALU — Arithmetic Logic Unit 
+5. ANN — Artificial Neural Network 
+6. AR — Augmented Reality 
+7. ASCII — American Standard Code for Information Interchange 
+8. BASIC — Beginner's All-purpose Symbolic Instruction Code 
+9. BD — Blu-ray disc 
+10. BIOS — Basic Input/Output System 
+11. CAPTCHA — Completely Automated Public Turing test to tell Computers 
+and Humans Apart 
+12. CD-R — Compact Disc Recordable 
+13. CD-ROM — Compact Disc Read-Only Memory 
+14. CD-RW — Compact Disc Rewritable 
+15. CGI — Computer-Generated Image 
+16. CLI — Command Line Interface 
+17. CNN — Convolutional Neural Network 
+18. CPU — Central Processing Unit 
+19. CSS — Cascading Style Sheets 
+20. DDoS — Distributed Denial of Service 
+21. DDR4 — Double Data Rate 4 
+22. DNS — Domain Name System 
+23. DoS — Denial of Service 
+24. DRAM — Dynamic Random Access Memory 
+25. DSL — Digital Subscriber Line 
+26. DVD — Digital Versatile Disc 
+27. EEPROM — Electrically Erasable Programmable Read-Only Memory 
+28. ENIAC — Electronic Numerical Integrator and Computer 
+29. EPROM — Erasable Programmable Read-Only Memory 
+30. FGT — Floating Gate Transistors 
+31. FORTRAN — FORmula TRANslator 
+32. FTP — File Transfer Protocol 
+33. GB — Gigabyte 
+34. GHz — Gigahertz 
+35. GSM — Global System for Mobile Communications 
+36. GUI — Graphical User Interface 
+37. HDD — Hard Disk Drive 
+38. HLAI — Human-Like Artificial Intelligence; Human-Level Artificial 
+Intelligence 
+39. HTML — Hyper Text Markup Language 
+40. HTTP — Hyper Text Transfer Protocol 
+41. IBM — International Business Machines 
+42. ICANN — Internet Corporation for Assigned Names and Numbers 
+43. IoT — the Internet of Things 
+44. IR — Instruction Register 
+45. ISDN — Integrated Services Digital Network 
+46. ISP — Internet Service Provider 
+47. JS — JavaScript 
+48. JVM — Java Virtual Machine 
+49. KB — Kilobyte 
+50. LAN — Local Area Network 
+51. LCD — Liquid Crystal Display 
+52. MAC address — Media Access Control address 
+53. MAN — Metropolitan Area Network 
+54. MFA — Multi-Factor Authentication 
+55. ML — Machine Learning 
+56. MROM — Masked Read-Only Memory 
+57. MS Word — Microsoft Word 
+58. MS-DOS — Microsoft Disk Operating System 
+59. NAND Flash — Not AND Flash 
+60. NN — Neural Networks 
+61. NOR Flash — Not OR Flash 
+62. OOP — Object-Oriented Programming 
+63. OS — Operating System 
+64. OSI — Open System Interconnection 
+65. PAN — Personal Area Network 
+66. PC – Personal Computer 
+67. PC — Program Counter 
+68. PHP — Hypertext Preprocessor 
+69. PROM — Programmable Read-Only Memory 
+70. RAM — Random Access Memory 
+71. RNN — Recurrent Neural Network 
+72. ROM — Read-Only Memory 
+73. SDRAM — Synchronous Dynamic Random Access Memory 
+74. SDSL — Symmetric Digital Subscriber Line 
+75. SEO — Search Engine Optimization 
+76. SMT — Simultaneous Multi-threading Technology 
+77. SMTP — Simple Mail Transfer Protocol 
+78. SQL — Structured Query Language 
+79. SRAM — Static Random Access Memory 
+80. SSD — Solid State Drive 
+81. SSL — Secure Sockets Layer 
+82. TB — TByte, Terabyte 
+83. TCP/IP — the Transmission Control Protocol and the Internet Protocol 
+84. UDP — User Datagram Protocol 
+85. UIDs — Unique Identifiers 
+86. UNIVAC I — Universal Automatic Computer 
+87. URL — Uniform Resource Locator 
+88. USB — Universal Serial Bus 
+89. VDSL — Very High Bit Rate DSL 
+90. VR — Virtual Reality 
+91. WAF — Web Application Protection Firewall 
+92. WAN — Wide Area Network 
+93. Wi-Fi — Wireless Fidelity 
+94. WiMAX — Worldwide Interoperability for Microwave Access 
+95. WIMP — Windows Icons Menus Pointer 
+96. WLAN — Wireless Local Area Network 
+97. WWW — World Wide Web 
+98. WYSIWYG — What You See Is What You Get 
+99. Yandex — Yet Another iNDEXer 
+ 

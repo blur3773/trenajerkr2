@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тренажер по английскому — КМ2</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-shape bg-shape-1"></div>
+  <div class="bg-shape bg-shape-2"></div>
+
+  <main class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Оффлайн-подготовка</p>
+        <h1>Тренажер к контрольной по английскому (КМ2)</h1>
+        <p class="subtitle">3 блока: перевод, аббревиатуры, определения терминов. Работает локально без интернета.</p>
+      </div>
+      <div class="stats" id="stats"></div>
+    </header>
+
+    <section class="panel" id="setup-panel">
+      <div class="tabs">
+        <button class="tab active" data-mode="training">Тренировка</button>
+        <button class="tab" data-mode="exam">Пробный КМ2</button>
+        <button class="tab" data-mode="dictionary">Словарь</button>
+      </div>
+
+      <div id="training-setup" class="setup-block"></div>
+      <div id="exam-setup" class="setup-block hidden"></div>
+      <div id="dictionary-setup" class="setup-block hidden"></div>
+    </section>
+
+    <section class="panel hidden" id="quiz-panel">
+      <div class="quiz-head">
+        <div>
+          <p class="eyebrow" id="quiz-label"></p>
+          <h2 id="quiz-title"></h2>
+        </div>
+        <div class="quiz-meta">
+          <span id="progress"></span>
+          <span id="score"></span>
+          <span id="timer"></span>
+        </div>
+      </div>
+
+      <div class="question" id="question"></div>
+
+      <form id="answer-form" class="answer-form">
+        <div id="answer-input-wrap"></div>
+        <button type="submit" class="btn primary" id="submit-btn">Проверить</button>
+      </form>
+
+      <div id="feedback" class="feedback hidden"></div>
+      <div id="correct-answer" class="correct-answer hidden"></div>
+
+      <div class="quiz-actions">
+        <button class="btn secondary" id="next-btn" disabled>Дальше</button>
+        <button class="btn ghost" id="stop-btn">Завершить</button>
+      </div>
+    </section>
+
+    <section class="panel hidden" id="result-panel"></section>
+  </main>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
